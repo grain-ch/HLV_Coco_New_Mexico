@@ -1,0 +1,148 @@
+<AAS005_Vought_UO1_lod1.visual>
+	<boundingBox>
+		<min>	-0.349045 0.000267 -0.365686	</min>
+		<max>	0.349236 0.209612 0.208014	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	hull	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	propeller_mod	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.131345 0.114354 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	disc	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc_cap	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	mod	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	hull_wire	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_gunFireBack	</identifier>
+				<transform>
+					<row0>	-1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+					<row3>	0.000000 0.179721 -0.092306 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	hull	</node>
+		<geometry>
+			<vertices>	hull_lodShape1.vertices	</vertices>
+			<primitive>	hull_lodShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PBS_Plane	</identifier>
+					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/AAS005_Vought_UO1.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc	</node>
+		<geometry>
+			<vertices>	disc_lod1Shape.vertices	</vertices>
+			<primitive>	disc_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/Japan_Disk_2Blade_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_cap	</node>
+		<geometry>
+			<vertices>	disc_cap_lod1Shape.vertices	</vertices>
+			<primitive>	disc_cap_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PBS_Plane	</identifier>
+					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/AAS005_Vought_UO1.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mod	</node>
+		<geometry>
+			<vertices>	mod_lodShape1.vertices	</vertices>
+			<primitive>	mod_lodShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PBS_Plane	</identifier>
+					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/AAS005_Vought_UO1.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	hull_wire	</node>
+		<geometry>
+			<vertices>	hull_wire_lod1Shape.vertices	</vertices>
+			<primitive>	hull_wire_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/AAS005_Vought_UO1_wire.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</AAS005_Vought_UO1_lod1.visual>

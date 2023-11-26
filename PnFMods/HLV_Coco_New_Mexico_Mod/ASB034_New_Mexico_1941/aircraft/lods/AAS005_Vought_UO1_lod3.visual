@@ -1,0 +1,47 @@
+<AAS005_Vought_UO1_lod3.visual>
+	<boundingBox>
+		<min>	-0.339964 0.000267 -0.369247	</min>
+		<max>	0.339964 0.205746 0.208014	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	hull	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_gunFireBack	</identifier>
+				<transform>
+					<row0>	-1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+					<row3>	0.000000 0.179721 -0.092306 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	hull	</node>
+		<geometry>
+			<vertices>	hull_lod3Shape.vertices	</vertices>
+			<primitive>	hull_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PBS_Plane	</identifier>
+					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/AAS005_Vought_UO1.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</AAS005_Vought_UO1_lod3.visual>

@@ -1,0 +1,7 @@
+<ASB034_New_Mexico_1941_Bow.model>
+	<castsShadow>	true	</castsShadow>
+	<parent>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/ship/lods/ASB034_New_Mexico_1941_Bow_lod1	</parent>
+	<extent>	8.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/ship/ASB034_New_Mexico_1941_Bow	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</ASB034_New_Mexico_1941_Bow.model>

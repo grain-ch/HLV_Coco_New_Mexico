@@ -1,0 +1,13 @@
+<AAS005_Vought_UO1.model>
+	<extent>	5.0000	</extent>
+	<parent>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/lods/AAS005_Vought_UO1_lod1	</parent>
+	<materialNames />
+	<visibilityBox>
+		<min>	-0.349045 -0.022658 -0.388746	</min>
+		<max>	0.349045 0.213143 0.184954	</max>
+	</visibilityBox>
+	<castsShadow>	true	</castsShadow>
+	<exporter>	1.6	</exporter>
+	<nodefullVisual>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/aircraft/AAS005_Vought_UO1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</AAS005_Vought_UO1.model>
