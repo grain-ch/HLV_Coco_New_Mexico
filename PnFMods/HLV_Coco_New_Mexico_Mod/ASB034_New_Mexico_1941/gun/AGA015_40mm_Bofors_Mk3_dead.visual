@@ -1,38 +1,106 @@
 <AGA015_40mm_Bofors_Mk3_dead.visual>
-	<boundingBox>
-		<min>	-0.061464 -0.000000 -0.077134	</min>
-		<max>	0.061429 0.089266 0.191345	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	BoforsMk3_dead	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
+			<node>
+				<identifier>	BoforsMk3_dead	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	BoforsMk3_dead	</node>
-		<geometry>
-			<vertices>	BoforsMk3_deadShape.vertices	</vertices>
-			<primitive>	BoforsMk3_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
-					<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/AGA015_40mm_Bofors_Mk3_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.0614 0.0000 -0.0771	</min>
+		<max>	0.0614 0.0892 0.1912	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BoforsMk3_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BoforsMk3_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/AGA015_40mm_Bofors_Mk3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BoforsMk3_dead_lodShape1	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BoforsMk3_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/AGA015_40mm_Bofors_Mk3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BoforsMk3_dead_lodShape2	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BoforsMk3_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/AGA015_40mm_Bofors_Mk3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BoforsMk3_dead_lodShape3	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BoforsMk3_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/AGA015_40mm_Bofors_Mk3_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BoforsMk3_deadShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BoforsMk3_dead_lodShape1	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	20.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BoforsMk3_dead_lodShape2	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	60.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	BoforsMk3_dead_lodShape3	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </AGA015_40mm_Bofors_Mk3_dead.visual>

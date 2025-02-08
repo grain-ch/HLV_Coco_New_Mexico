@@ -1,7 +1,0 @@
-<AD008_Director_Mk31_lod2.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/director/lods/AD008_Director_Mk31_lod3	</parent>
-	<extent>	6.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/director/lods/AD008_Director_Mk31_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</AD008_Director_Mk31_lod2.model>

@@ -1,8 +1,0 @@
-<AGA015_40mm_Bofors_Mk3_dead_lod2.model>
-	<castsShadow>	false	</castsShadow>
-	<extent>	20.0000	</extent>
-	<parent>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/lods/AGA015_40mm_Bofors_Mk3_dead_lod3	</parent>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/HLV_Coco_New_Mexico_Mod/ASB034_New_Mexico_1941/gun/lods/AGA015_40mm_Bofors_Mk3_dead_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</AGA015_40mm_Bofors_Mk3_dead_lod2.model>
